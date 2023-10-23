@@ -7,7 +7,7 @@ provider "aws" {
 resource "aws_instance" "my_ec2_instance" {
   ami           = "ami-0fc5d935ebf8bc3bc" # Ubuntu 22.04 Jammy
   instance_type = "t2.micro"              # Instance type
-  key_name      = "ethsafari2023"         # SSH key pair name
+  key_name      = "keypair_name"         # SSH key pair name
 
   tags = {
     Name = "MyEC2Instance"
