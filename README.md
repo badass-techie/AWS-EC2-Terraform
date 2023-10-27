@@ -42,7 +42,7 @@ This project demonstrates how to provision a publicly accessible AWS EC2 instanc
     ```
 
     ```bash
-    sudo apt-get update && sudo apt-get install terraform```
+    sudo apt-get update && sudo apt-get install terraform
     ```
 
 - You need to have the AWS CLI installed and configured with your AWS credentials. You can follow the instructions [here](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-configure.html).
